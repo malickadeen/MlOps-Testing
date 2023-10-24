@@ -20,6 +20,7 @@ new_data_point = pd.DataFrame({
 })
 
 # Make predictions
+print(f"hello world")
 predictions = model.predict(new_data_point)
 
 # Print the predictions
