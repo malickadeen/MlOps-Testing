@@ -2,4 +2,4 @@ install:
 		pip install -r requirements.txt
 
 test:
-		python -m pytest test.py
+		python -m pytest task.py
