@@ -9,7 +9,7 @@ def buildProject() {
 
 def runTests() {
     echo 'Test'
-    bat 'python test.py'
+    bat 'python task.py'
 }
 
 def deployApplication() {
